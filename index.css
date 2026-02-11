@@ -19,7 +19,7 @@
     margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
-  border: 1px solid blue;
+
 }
 
 .predstavlenie{
@@ -8929,4 +8929,5 @@
     -webkit-animation: animate-svg-fill-285 0.7s cubic-bezier(0.785, 0.135, 0.15, 0.86) 2.6559999999999997s both;
             animation: animate-svg-fill-285 0.7s cubic-bezier(0.785, 0.135, 0.15, 0.86) 2.6559999999999997s both;
   }
+
   
