@@ -19,7 +19,7 @@
     margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
-
+  border: 1px solid blue;
 }
 
 .predstavlenie{
@@ -525,9 +525,6 @@
 }
 
 
-.menegment{
-
-}
 
 .menegment__ramka{
   display: flex;
@@ -536,11 +533,13 @@
   align-items: center;
   width: 100%;
   max-width: 100%;
+
 }
 .menegment__title{
   font-size: 92px;
   font-family: 'veles';
   color: #396c91;
+  font-weight: 600;
 }
 
 .menegment__time{
@@ -664,6 +663,214 @@
           font-size: 24px;
         }
 }
+
+.pozhelanie__content{
+  position: relative;
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+.pozhelanie__text{
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  font-family: 'comic';
+  color: #396c91;
+  text-align: center;
+  
+}
+@media (max-width:1024px) {
+  .pozhelanie__text{font-size: 28px;}
+  
+}
+
+@media (max-width:968px) {
+  .pozhelanie__text{font-size: 26px;}
+  .pozhelanie__content{
+
+    margin-top: 200px;
+  }
+}
+
+
+@media (max-width:828px) {
+  .pozhelanie__text{font-size: 24px;}
+  
+}
+
+@media (max-width:728px) {
+  .pozhelanie__text{font-size: 22px;}
+
+}
+
+@media (max-width:665px) {
+  .pozhelanie__text{font-size: 20px;}
+
+}
+
+@media (max-width:600px) {
+  .pozhelanie__text{font-size: 18px;}
+  .pozhelanie__content{
+
+    margin-top: 160px;
+  }
+}
+
+
+@media (max-width:545px) {
+  .pozhelanie__text{font-size: 16px;}
+  
+}
+
+@media (max-width:480px) {
+  .pozhelanie__text{font-size: 14px;}
+  .pozhelanie__content{
+
+    margin-top: 120px;
+  }
+}
+
+@media (max-width:430px) {
+  .pozhelanie__text{font-size: 12px;}
+  
+}
+
+@media (max-width:380px) {
+  .pozhelanie__text{font-size: 10px;}
+  .pozhelanie__content{
+
+    margin-top: 90px;
+  }
+}
+.pozhelanie__img{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  max-width: 100%;
+  /* max-height: 100%; */
+  top: 50%;
+  left: 0;
+  transform: translate(0,-50%);
+}
+
+.pozhelanie__img img {
+  max-width: 110%;
+}
+.dress__content{
+
+}
+.dress__title{
+  font-size: 92px;
+  font-family: 'veles';
+  color: #396c91;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.dress__text{
+  font-size: 48px;
+  font-family: 'comic';
+  color: #396c91;
+
+}
+@media (max-width:1025px) {
+  .dress__text{
+    font-size: 35px;     
+    
+  }
+}
+
+@media (max-width:769px) {
+.dress__text{
+  font-size: 32px;     
+  margin-top: 100px;
+}
+}
+
+@media (max-width:672px) {
+.dress__text{
+  font-size: 24px;     
+}
+}
+
+@media (max-width:520px) {
+.dress__text{
+  font-size: 20px;     
+  margin-top: 70px;
+}
+}
+
+@media (max-width:440px) {
+.dress__text{
+  font-size: 16px;    
+  margin-top: 50px; 
+}
+}
+
+@media (max-width:360px) {
+  .dress__text{
+    font-size: 14px;    
+    margin-top: 50px; 
+  }
+  }
+ @media (max-width:1024px) {
+    .dress__title{
+      font-size: 90px;
+    }
+
+  
+  }
+  
+  @media (max-width:950px) {
+    .dress__title{
+      font-size: 70px;
+    }
+
+  
+  }
+  
+  
+  @media (max-width:768px) {
+    .dress__title{
+      font-size: 50px;
+    }
+
+  }
+  
+  @media (max-width:560px) {
+    .dress__title{
+      font-size: 40px;
+    }
+
+  }
+  @media (max-width:480px) {
+    .dress__title{
+      font-size: 32px;
+    }
+}
+  
+    @media (max-width:410px) {
+      .dress__title{
+        font-size: 28px;
+      }}
+  
+      @media (max-width:330px) {
+        .dress__title{
+          font-size: 24px;
+        }
+}
+
+.dress__svg{
+  display: flex;
+  justify-content: right;
+  height: 100px;
+}
+
+.dress__svg img{
+  height: 100%;
+}
 @-webkit-keyframes animate-svg-fill-1 {
   0% {
     fill: transparent;
@@ -684,2290 +891,2316 @@
   }
 }
 
-.managment__anim-bok-1 {
-  -webkit-animation: animate-svg-fill-1 0.5s ease 0s both;
-          animation: animate-svg-fill-1 0.5s ease 0s both;
-}
-
-@-webkit-keyframes animate-svg-fill-2 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-2 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-2 {
-  -webkit-animation: animate-svg-fill-2 0.5s ease 0.05s both;
-          animation: animate-svg-fill-2 0.5s ease 0.05s both;
-}
-
-@-webkit-keyframes animate-svg-fill-3 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-3 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-3 {
-  -webkit-animation: animate-svg-fill-3 0.5s ease 0.1s both;
-          animation: animate-svg-fill-3 0.5s ease 0.1s both;
-}
-
-@-webkit-keyframes animate-svg-fill-4 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-4 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-4 {
-  -webkit-animation: animate-svg-fill-4 0.5s ease 0.15000000000000002s both;
-          animation: animate-svg-fill-4 0.5s ease 0.15000000000000002s both;
-}
-
-@-webkit-keyframes animate-svg-fill-5 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-5 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-5 {
-  -webkit-animation: animate-svg-fill-5 0.5s ease 0.2s both;
-          animation: animate-svg-fill-5 0.5s ease 0.2s both;
-}
-
-@-webkit-keyframes animate-svg-fill-6 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-6 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-6 {
-  -webkit-animation: animate-svg-fill-6 0.5s ease 0.25s both;
-          animation: animate-svg-fill-6 0.5s ease 0.25s both;
-}
-
-@-webkit-keyframes animate-svg-fill-7 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-7 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-7 {
-  -webkit-animation: animate-svg-fill-7 0.5s ease 0.30000000000000004s both;
-          animation: animate-svg-fill-7 0.5s ease 0.30000000000000004s both;
-}
-
-@-webkit-keyframes animate-svg-fill-8 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-8 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-8 {
-  -webkit-animation: animate-svg-fill-8 0.5s ease 0.35000000000000003s both;
-          animation: animate-svg-fill-8 0.5s ease 0.35000000000000003s both;
-}
-
-@-webkit-keyframes animate-svg-fill-9 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-9 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-9 {
-  -webkit-animation: animate-svg-fill-9 0.5s ease 0.4s both;
-          animation: animate-svg-fill-9 0.5s ease 0.4s both;
-}
-
-@-webkit-keyframes animate-svg-fill-10 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-10 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-10 {
-  -webkit-animation: animate-svg-fill-10 0.5s ease 0.45s both;
-          animation: animate-svg-fill-10 0.5s ease 0.45s both;
-}
-
-@-webkit-keyframes animate-svg-fill-11 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-11 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-11 {
-  -webkit-animation: animate-svg-fill-11 0.5s ease 0.5s both;
-          animation: animate-svg-fill-11 0.5s ease 0.5s both;
-}
-
-@-webkit-keyframes animate-svg-fill-12 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-12 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-12 {
-  -webkit-animation: animate-svg-fill-12 0.5s ease 0.55s both;
-          animation: animate-svg-fill-12 0.5s ease 0.55s both;
-}
-
-@-webkit-keyframes animate-svg-fill-13 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-13 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-13 {
-  -webkit-animation: animate-svg-fill-13 0.5s ease 0.6000000000000001s both;
-          animation: animate-svg-fill-13 0.5s ease 0.6000000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-fill-14 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-14 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-14 {
-  -webkit-animation: animate-svg-fill-14 0.5s ease 0.65s both;
-          animation: animate-svg-fill-14 0.5s ease 0.65s both;
-}
-
-@-webkit-keyframes animate-svg-fill-15 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-15 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-15 {
-  -webkit-animation: animate-svg-fill-15 0.5s ease 0.7000000000000001s both;
-          animation: animate-svg-fill-15 0.5s ease 0.7000000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-fill-16 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-16 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-16 {
-  -webkit-animation: animate-svg-fill-16 0.5s ease 0.75s both;
-          animation: animate-svg-fill-16 0.5s ease 0.75s both;
-}
-
-@-webkit-keyframes animate-svg-fill-17 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-17 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-17 {
-  -webkit-animation: animate-svg-fill-17 0.5s ease 0.8s both;
-          animation: animate-svg-fill-17 0.5s ease 0.8s both;
-}
-
-@-webkit-keyframes animate-svg-fill-18 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-18 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-18 {
-  -webkit-animation: animate-svg-fill-18 0.5s ease 0.8500000000000001s both;
-          animation: animate-svg-fill-18 0.5s ease 0.8500000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-fill-19 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-19 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-19 {
-  -webkit-animation: animate-svg-fill-19 0.5s ease 0.9s both;
-          animation: animate-svg-fill-19 0.5s ease 0.9s both;
-}
-
-@-webkit-keyframes animate-svg-fill-20 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-20 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-20 {
-  -webkit-animation: animate-svg-fill-20 0.5s ease 0.9500000000000001s both;
-          animation: animate-svg-fill-20 0.5s ease 0.9500000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-fill-21 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-21 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-21 {
-  -webkit-animation: animate-svg-fill-21 0.5s ease 1s both;
-          animation: animate-svg-fill-21 0.5s ease 1s both;
-}
-
-@-webkit-keyframes animate-svg-fill-22 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-22 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-22 {
-  -webkit-animation: animate-svg-fill-22 0.5s ease 1.05s both;
-          animation: animate-svg-fill-22 0.5s ease 1.05s both;
-}
-
-@-webkit-keyframes animate-svg-fill-23 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-23 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-23 {
-  -webkit-animation: animate-svg-fill-23 0.5s ease 1.1s both;
-          animation: animate-svg-fill-23 0.5s ease 1.1s both;
-}
-
-@-webkit-keyframes animate-svg-fill-24 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-24 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-24 {
-  -webkit-animation: animate-svg-fill-24 0.5s ease 1.1500000000000001s both;
-          animation: animate-svg-fill-24 0.5s ease 1.1500000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-fill-25 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-25 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-25 {
-  -webkit-animation: animate-svg-fill-25 0.5s ease 1.2000000000000002s both;
-          animation: animate-svg-fill-25 0.5s ease 1.2000000000000002s both;
-}
-
-@-webkit-keyframes animate-svg-fill-26 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-26 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-26 {
-  -webkit-animation: animate-svg-fill-26 0.5s ease 1.25s both;
-          animation: animate-svg-fill-26 0.5s ease 1.25s both;
-}
-
-@-webkit-keyframes animate-svg-fill-27 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-27 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-27 {
-  -webkit-animation: animate-svg-fill-27 0.5s ease 1.3s both;
-          animation: animate-svg-fill-27 0.5s ease 1.3s both;
-}
-
-@-webkit-keyframes animate-svg-fill-28 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-28 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-28 {
-  -webkit-animation: animate-svg-fill-28 0.5s ease 1.35s both;
-          animation: animate-svg-fill-28 0.5s ease 1.35s both;
-}
-
-@-webkit-keyframes animate-svg-fill-29 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-29 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-29 {
-  -webkit-animation: animate-svg-fill-29 0.5s ease 1.4000000000000001s both;
-          animation: animate-svg-fill-29 0.5s ease 1.4000000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-fill-30 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-30 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-30 {
-  -webkit-animation: animate-svg-fill-30 0.5s ease 1.4500000000000002s both;
-          animation: animate-svg-fill-30 0.5s ease 1.4500000000000002s both;
-}
-
-@-webkit-keyframes animate-svg-fill-31 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-31 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-31 {
-  -webkit-animation: animate-svg-fill-31 0.5s ease 1.5s both;
-          animation: animate-svg-fill-31 0.5s ease 1.5s both;
-}
-
-@-webkit-keyframes animate-svg-fill-32 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-32 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-32 {
-  -webkit-animation: animate-svg-fill-32 0.5s ease 1.55s both;
-          animation: animate-svg-fill-32 0.5s ease 1.55s both;
-}
-
-@-webkit-keyframes animate-svg-fill-33 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-33 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-33 {
-  -webkit-animation: animate-svg-fill-33 0.5s ease 1.6s both;
-          animation: animate-svg-fill-33 0.5s ease 1.6s both;
-}
-
-@-webkit-keyframes animate-svg-fill-34 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-34 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-34 {
-  -webkit-animation: animate-svg-fill-34 0.5s ease 1.6500000000000001s both;
-          animation: animate-svg-fill-34 0.5s ease 1.6500000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-fill-35 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-35 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-35 {
-  -webkit-animation: animate-svg-fill-35 0.5s ease 1.7000000000000002s both;
-          animation: animate-svg-fill-35 0.5s ease 1.7000000000000002s both;
-}
-
-@-webkit-keyframes animate-svg-fill-36 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-36 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-36 {
-  -webkit-animation: animate-svg-fill-36 0.5s ease 1.75s both;
-          animation: animate-svg-fill-36 0.5s ease 1.75s both;
-}
-
-@-webkit-keyframes animate-svg-fill-37 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-37 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-37 {
-  -webkit-animation: animate-svg-fill-37 0.5s ease 1.8s both;
-          animation: animate-svg-fill-37 0.5s ease 1.8s both;
-}
-
-@-webkit-keyframes animate-svg-fill-38 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-38 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-38 {
-  -webkit-animation: animate-svg-fill-38 0.5s ease 1.85s both;
-          animation: animate-svg-fill-38 0.5s ease 1.85s both;
-}
-
-@-webkit-keyframes animate-svg-fill-39 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-39 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-39 {
-  -webkit-animation: animate-svg-fill-39 0.5s ease 1.9000000000000001s both;
-          animation: animate-svg-fill-39 0.5s ease 1.9000000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-fill-40 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-40 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-bok-40 {
-  -webkit-animation: animate-svg-fill-40 0.5s ease 1.9500000000000002s both;
-          animation: animate-svg-fill-40 0.5s ease 1.9500000000000002s both;
-}
-**************************************/
-
- @-webkit-keyframes animate-svg-fill-1 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-1 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-kol-1 {
-  -webkit-animation: animate-svg-fill-1 0.5s ease 0s both;
-          animation: animate-svg-fill-1 0.5s ease 0s both;
-}
-
-@-webkit-keyframes animate-svg-fill-2 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-2 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-kol-2 {
-  -webkit-animation: animate-svg-fill-2 0.5s ease 0.05s both;
-          animation: animate-svg-fill-2 0.5s ease 0.05s both;
-}
-
-@-webkit-keyframes animate-svg-fill-3 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-3 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-kol-3 {
-  -webkit-animation: animate-svg-fill-3 0.5s ease 0.1s both;
-          animation: animate-svg-fill-3 0.5s ease 0.1s both;
-}
-
-@-webkit-keyframes animate-svg-fill-4 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-4 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-kol-4 {
-  -webkit-animation: animate-svg-fill-4 0.5s ease 0.15000000000000002s both;
-          animation: animate-svg-fill-4 0.5s ease 0.15000000000000002s both;
-}
-
-@-webkit-keyframes animate-svg-fill-5 {
-  0% {
-    fill: transparent;
-  }
+.menegment__svg--bokal{
+  opacity: 0;
+}
+
+.menegment__svg--bokal.active{
+  opacity: 100;
+  .managment__anim-bok-1 {
+    -webkit-animation: animate-svg-fill-1 0.5s ease 0s both;
+            animation: animate-svg-fill-1 0.5s ease 0s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-2 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-2 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-2 {
+    -webkit-animation: animate-svg-fill-2 0.5s ease 0.05s both;
+            animation: animate-svg-fill-2 0.5s ease 0.05s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-3 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-3 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-3 {
+    -webkit-animation: animate-svg-fill-3 0.5s ease 0.1s both;
+            animation: animate-svg-fill-3 0.5s ease 0.1s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-4 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-4 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-4 {
+    -webkit-animation: animate-svg-fill-4 0.5s ease 0.15000000000000002s both;
+            animation: animate-svg-fill-4 0.5s ease 0.15000000000000002s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-5 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-5 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-5 {
+    -webkit-animation: animate-svg-fill-5 0.5s ease 0.2s both;
+            animation: animate-svg-fill-5 0.5s ease 0.2s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-6 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-6 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-6 {
+    -webkit-animation: animate-svg-fill-6 0.5s ease 0.25s both;
+            animation: animate-svg-fill-6 0.5s ease 0.25s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-7 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-7 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-7 {
+    -webkit-animation: animate-svg-fill-7 0.5s ease 0.30000000000000004s both;
+            animation: animate-svg-fill-7 0.5s ease 0.30000000000000004s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-8 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-8 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-8 {
+    -webkit-animation: animate-svg-fill-8 0.5s ease 0.35000000000000003s both;
+            animation: animate-svg-fill-8 0.5s ease 0.35000000000000003s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-9 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-9 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-9 {
+    -webkit-animation: animate-svg-fill-9 0.5s ease 0.4s both;
+            animation: animate-svg-fill-9 0.5s ease 0.4s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-10 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-10 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-10 {
+    -webkit-animation: animate-svg-fill-10 0.5s ease 0.45s both;
+            animation: animate-svg-fill-10 0.5s ease 0.45s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-11 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-11 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-11 {
+    -webkit-animation: animate-svg-fill-11 0.5s ease 0.5s both;
+            animation: animate-svg-fill-11 0.5s ease 0.5s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-12 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-12 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-12 {
+    -webkit-animation: animate-svg-fill-12 0.5s ease 0.55s both;
+            animation: animate-svg-fill-12 0.5s ease 0.55s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-13 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-13 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-13 {
+    -webkit-animation: animate-svg-fill-13 0.5s ease 0.6000000000000001s both;
+            animation: animate-svg-fill-13 0.5s ease 0.6000000000000001s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-14 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-14 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-14 {
+    -webkit-animation: animate-svg-fill-14 0.5s ease 0.65s both;
+            animation: animate-svg-fill-14 0.5s ease 0.65s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-15 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-15 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-15 {
+    -webkit-animation: animate-svg-fill-15 0.5s ease 0.7000000000000001s both;
+            animation: animate-svg-fill-15 0.5s ease 0.7000000000000001s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-16 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-16 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-16 {
+    -webkit-animation: animate-svg-fill-16 0.5s ease 0.75s both;
+            animation: animate-svg-fill-16 0.5s ease 0.75s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-17 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-17 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-17 {
+    -webkit-animation: animate-svg-fill-17 0.5s ease 0.8s both;
+            animation: animate-svg-fill-17 0.5s ease 0.8s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-18 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-18 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-18 {
+    -webkit-animation: animate-svg-fill-18 0.5s ease 0.8500000000000001s both;
+            animation: animate-svg-fill-18 0.5s ease 0.8500000000000001s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-19 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-19 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-19 {
+    -webkit-animation: animate-svg-fill-19 0.5s ease 0.9s both;
+            animation: animate-svg-fill-19 0.5s ease 0.9s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-20 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-20 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-20 {
+    -webkit-animation: animate-svg-fill-20 0.5s ease 0.9500000000000001s both;
+            animation: animate-svg-fill-20 0.5s ease 0.9500000000000001s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-21 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-21 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-21 {
+    -webkit-animation: animate-svg-fill-21 0.5s ease 1s both;
+            animation: animate-svg-fill-21 0.5s ease 1s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-22 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-22 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-22 {
+    -webkit-animation: animate-svg-fill-22 0.5s ease 1.05s both;
+            animation: animate-svg-fill-22 0.5s ease 1.05s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-23 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-23 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-23 {
+    -webkit-animation: animate-svg-fill-23 0.5s ease 1.1s both;
+            animation: animate-svg-fill-23 0.5s ease 1.1s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-24 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-24 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-24 {
+    -webkit-animation: animate-svg-fill-24 0.5s ease 1.1500000000000001s both;
+            animation: animate-svg-fill-24 0.5s ease 1.1500000000000001s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-25 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-25 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-25 {
+    -webkit-animation: animate-svg-fill-25 0.5s ease 1.2000000000000002s both;
+            animation: animate-svg-fill-25 0.5s ease 1.2000000000000002s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-26 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-26 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-26 {
+    -webkit-animation: animate-svg-fill-26 0.5s ease 1.25s both;
+            animation: animate-svg-fill-26 0.5s ease 1.25s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-27 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-27 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-27 {
+    -webkit-animation: animate-svg-fill-27 0.5s ease 1.3s both;
+            animation: animate-svg-fill-27 0.5s ease 1.3s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-28 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-28 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-28 {
+    -webkit-animation: animate-svg-fill-28 0.5s ease 1.35s both;
+            animation: animate-svg-fill-28 0.5s ease 1.35s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-29 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-29 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-29 {
+    -webkit-animation: animate-svg-fill-29 0.5s ease 1.4000000000000001s both;
+            animation: animate-svg-fill-29 0.5s ease 1.4000000000000001s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-30 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-30 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-30 {
+    -webkit-animation: animate-svg-fill-30 0.5s ease 1.4500000000000002s both;
+            animation: animate-svg-fill-30 0.5s ease 1.4500000000000002s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-31 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-31 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-31 {
+    -webkit-animation: animate-svg-fill-31 0.5s ease 1.5s both;
+            animation: animate-svg-fill-31 0.5s ease 1.5s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-32 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-32 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-32 {
+    -webkit-animation: animate-svg-fill-32 0.5s ease 1.55s both;
+            animation: animate-svg-fill-32 0.5s ease 1.55s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-33 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-33 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-33 {
+    -webkit-animation: animate-svg-fill-33 0.5s ease 1.6s both;
+            animation: animate-svg-fill-33 0.5s ease 1.6s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-34 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-34 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-34 {
+    -webkit-animation: animate-svg-fill-34 0.5s ease 1.6500000000000001s both;
+            animation: animate-svg-fill-34 0.5s ease 1.6500000000000001s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-35 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-35 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-35 {
+    -webkit-animation: animate-svg-fill-35 0.5s ease 1.7000000000000002s both;
+            animation: animate-svg-fill-35 0.5s ease 1.7000000000000002s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-36 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-36 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-36 {
+    -webkit-animation: animate-svg-fill-36 0.5s ease 1.75s both;
+            animation: animate-svg-fill-36 0.5s ease 1.75s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-37 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-37 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-37 {
+    -webkit-animation: animate-svg-fill-37 0.5s ease 1.8s both;
+            animation: animate-svg-fill-37 0.5s ease 1.8s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-38 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-38 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-38 {
+    -webkit-animation: animate-svg-fill-38 0.5s ease 1.85s both;
+            animation: animate-svg-fill-38 0.5s ease 1.85s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-39 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-39 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-39 {
+    -webkit-animation: animate-svg-fill-39 0.5s ease 1.9000000000000001s both;
+            animation: animate-svg-fill-39 0.5s ease 1.9000000000000001s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-40 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-40 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-bok-40 {
+    -webkit-animation: animate-svg-fill-40 0.5s ease 1.9500000000000002s both;
+            animation: animate-svg-fill-40 0.5s ease 1.9500000000000002s both;
+  }
+}
+
+
+.menegment__svg-kol{
+  opacity: 0;
+}
+.menegment__svg-kol.active{
+  opacity: 100;
+  @-webkit-keyframes animate-svg-fill-1 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-1 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-kol-1 {
+    -webkit-animation: animate-svg-fill-1 0.5s ease 0s both;
+            animation: animate-svg-fill-1 0.5s ease 0s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-2 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-2 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-kol-2 {
+    -webkit-animation: animate-svg-fill-2 0.5s ease 0.05s both;
+            animation: animate-svg-fill-2 0.5s ease 0.05s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-3 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-3 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-kol-3 {
+    -webkit-animation: animate-svg-fill-3 0.5s ease 0.1s both;
+            animation: animate-svg-fill-3 0.5s ease 0.1s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-4 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-4 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-kol-4 {
+    -webkit-animation: animate-svg-fill-4 0.5s ease 0.15000000000000002s both;
+            animation: animate-svg-fill-4 0.5s ease 0.15000000000000002s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-5 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-5 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-kol-5 {
+    -webkit-animation: animate-svg-fill-5 0.5s ease 0.2s both;
+            animation: animate-svg-fill-5 0.5s ease 0.2s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-6 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-6 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-kol-6 {
+    -webkit-animation: animate-svg-fill-6 0.5s ease 0.25s both;
+            animation: animate-svg-fill-6 0.5s ease 0.25s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-7 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-7 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-kol-7 {
+    -webkit-animation: animate-svg-fill-7 0.5s ease 0.30000000000000004s both;
+            animation: animate-svg-fill-7 0.5s ease 0.30000000000000004s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-8 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-8 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-kol-8 {
+    -webkit-animation: animate-svg-fill-8 0.5s ease 0.35000000000000003s both;
+            animation: animate-svg-fill-8 0.5s ease 0.35000000000000003s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-9 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-9 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-kol-9 {
+    -webkit-animation: animate-svg-fill-9 0.5s ease 0.4s both;
+            animation: animate-svg-fill-9 0.5s ease 0.4s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-10 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-10 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-kol-10 {
+    -webkit-animation: animate-svg-fill-10 0.5s ease 0.45s both;
+            animation: animate-svg-fill-10 0.5s ease 0.45s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-11 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-11 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-kol-11 {
+    -webkit-animation: animate-svg-fill-11 0.5s ease 0.5s both;
+            animation: animate-svg-fill-11 0.5s ease 0.5s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-12 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-12 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-kol-12 {
+    -webkit-animation: animate-svg-fill-12 0.5s ease 0.55s both;
+            animation: animate-svg-fill-12 0.5s ease 0.55s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-13 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-13 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-kol-13 {
+    -webkit-animation: animate-svg-fill-13 0.5s ease 0.6000000000000001s both;
+            animation: animate-svg-fill-13 0.5s ease 0.6000000000000001s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-14 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-14 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-kol-14 {
+    -webkit-animation: animate-svg-fill-14 0.5s ease 0.65s both;
+            animation: animate-svg-fill-14 0.5s ease 0.65s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-15 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-15 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-kol-15 {
+    -webkit-animation: animate-svg-fill-15 0.5s ease 0.7000000000000001s both;
+            animation: animate-svg-fill-15 0.5s ease 0.7000000000000001s both;
+  }
+}
+
+    
+  
+
+ 
 
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-5 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-kol-5 {
-  -webkit-animation: animate-svg-fill-5 0.5s ease 0.2s both;
-          animation: animate-svg-fill-5 0.5s ease 0.2s both;
-}
-
-@-webkit-keyframes animate-svg-fill-6 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-6 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-kol-6 {
-  -webkit-animation: animate-svg-fill-6 0.5s ease 0.25s both;
-          animation: animate-svg-fill-6 0.5s ease 0.25s both;
-}
-
-@-webkit-keyframes animate-svg-fill-7 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-7 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-kol-7 {
-  -webkit-animation: animate-svg-fill-7 0.5s ease 0.30000000000000004s both;
-          animation: animate-svg-fill-7 0.5s ease 0.30000000000000004s both;
-}
-
-@-webkit-keyframes animate-svg-fill-8 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-8 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-kol-8 {
-  -webkit-animation: animate-svg-fill-8 0.5s ease 0.35000000000000003s both;
-          animation: animate-svg-fill-8 0.5s ease 0.35000000000000003s both;
-}
-
-@-webkit-keyframes animate-svg-fill-9 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-9 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-kol-9 {
-  -webkit-animation: animate-svg-fill-9 0.5s ease 0.4s both;
-          animation: animate-svg-fill-9 0.5s ease 0.4s both;
-}
-
-@-webkit-keyframes animate-svg-fill-10 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-10 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-kol-10 {
-  -webkit-animation: animate-svg-fill-10 0.5s ease 0.45s both;
-          animation: animate-svg-fill-10 0.5s ease 0.45s both;
-}
-
-@-webkit-keyframes animate-svg-fill-11 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-11 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-kol-11 {
-  -webkit-animation: animate-svg-fill-11 0.5s ease 0.5s both;
-          animation: animate-svg-fill-11 0.5s ease 0.5s both;
-}
-
-@-webkit-keyframes animate-svg-fill-12 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-12 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-kol-12 {
-  -webkit-animation: animate-svg-fill-12 0.5s ease 0.55s both;
-          animation: animate-svg-fill-12 0.5s ease 0.55s both;
-}
-
-@-webkit-keyframes animate-svg-fill-13 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-13 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-kol-13 {
-  -webkit-animation: animate-svg-fill-13 0.5s ease 0.6000000000000001s both;
-          animation: animate-svg-fill-13 0.5s ease 0.6000000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-fill-14 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-14 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-kol-14 {
-  -webkit-animation: animate-svg-fill-14 0.5s ease 0.65s both;
-          animation: animate-svg-fill-14 0.5s ease 0.65s both;
-}
-
-@-webkit-keyframes animate-svg-fill-15 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-15 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-kol-15 {
-  -webkit-animation: animate-svg-fill-15 0.5s ease 0.7000000000000001s both;
-          animation: animate-svg-fill-15 0.5s ease 0.7000000000000001s both;
-}
 /***************************************************
  * Generated by SVG Artista on 2/12/2026, 2:01:10 AM
  * MIT license (https://opensource.org/licenses/MIT)
  * W. https://svgartista.net
  **************************************************/
-
- @-webkit-keyframes animate-svg-fill-1 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-1 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-1 {
-  -webkit-animation: animate-svg-fill-1 0.5s ease 0s both;
-          animation: animate-svg-fill-1 0.5s ease 0s both;
-}
-
-@-webkit-keyframes animate-svg-fill-2 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-2 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-2 {
-  -webkit-animation: animate-svg-fill-2 0.5s ease 0.05s both;
-          animation: animate-svg-fill-2 0.5s ease 0.05s both;
-}
-
-@-webkit-keyframes animate-svg-fill-3 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-3 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-3 {
-  -webkit-animation: animate-svg-fill-3 0.5s ease 0.1s both;
-          animation: animate-svg-fill-3 0.5s ease 0.1s both;
-}
-
-@-webkit-keyframes animate-svg-fill-4 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-4 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-4 {
-  -webkit-animation: animate-svg-fill-4 0.5s ease 0.15000000000000002s both;
-          animation: animate-svg-fill-4 0.5s ease 0.15000000000000002s both;
-}
-
-@-webkit-keyframes animate-svg-fill-5 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-5 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-5 {
-  -webkit-animation: animate-svg-fill-5 0.5s ease 0.2s both;
-          animation: animate-svg-fill-5 0.5s ease 0.2s both;
-}
-
-@-webkit-keyframes animate-svg-fill-6 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-6 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-6 {
-  -webkit-animation: animate-svg-fill-6 0.5s ease 0.25s both;
-          animation: animate-svg-fill-6 0.5s ease 0.25s both;
-}
-
-@-webkit-keyframes animate-svg-fill-7 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-7 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-7 {
-  -webkit-animation: animate-svg-fill-7 0.5s ease 0.30000000000000004s both;
-          animation: animate-svg-fill-7 0.5s ease 0.30000000000000004s both;
-}
-
-@-webkit-keyframes animate-svg-fill-8 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-8 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-8 {
-  -webkit-animation: animate-svg-fill-8 0.5s ease 0.35000000000000003s both;
-          animation: animate-svg-fill-8 0.5s ease 0.35000000000000003s both;
-}
-
-@-webkit-keyframes animate-svg-fill-9 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-9 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-9 {
-  -webkit-animation: animate-svg-fill-9 0.5s ease 0.4s both;
-          animation: animate-svg-fill-9 0.5s ease 0.4s both;
-}
-
-@-webkit-keyframes animate-svg-fill-10 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-10 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-10 {
-  -webkit-animation: animate-svg-fill-10 0.5s ease 0.45s both;
-          animation: animate-svg-fill-10 0.5s ease 0.45s both;
-}
-
-@-webkit-keyframes animate-svg-fill-11 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-11 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-11 {
-  -webkit-animation: animate-svg-fill-11 0.5s ease 0.5s both;
-          animation: animate-svg-fill-11 0.5s ease 0.5s both;
-}
-
-@-webkit-keyframes animate-svg-fill-12 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-12 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-12 {
-  -webkit-animation: animate-svg-fill-12 0.5s ease 0.55s both;
-          animation: animate-svg-fill-12 0.5s ease 0.55s both;
-}
-
-@-webkit-keyframes animate-svg-fill-13 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-13 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-13 {
-  -webkit-animation: animate-svg-fill-13 0.5s ease 0.6000000000000001s both;
-          animation: animate-svg-fill-13 0.5s ease 0.6000000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-fill-14 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-14 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-14 {
-  -webkit-animation: animate-svg-fill-14 0.5s ease 0.65s both;
-          animation: animate-svg-fill-14 0.5s ease 0.65s both;
-}
-
-@-webkit-keyframes animate-svg-fill-15 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-15 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-15 {
-  -webkit-animation: animate-svg-fill-15 0.5s ease 0.7000000000000001s both;
-          animation: animate-svg-fill-15 0.5s ease 0.7000000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-fill-16 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-16 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-16 {
-  -webkit-animation: animate-svg-fill-16 0.5s ease 0.75s both;
-          animation: animate-svg-fill-16 0.5s ease 0.75s both;
-}
-
-@-webkit-keyframes animate-svg-fill-17 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-17 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-17 {
-  -webkit-animation: animate-svg-fill-17 0.5s ease 0.8s both;
-          animation: animate-svg-fill-17 0.5s ease 0.8s both;
-}
-
-@-webkit-keyframes animate-svg-fill-18 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-18 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-18 {
-  -webkit-animation: animate-svg-fill-18 0.5s ease 0.8500000000000001s both;
-          animation: animate-svg-fill-18 0.5s ease 0.8500000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-fill-19 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-19 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-19 {
-  -webkit-animation: animate-svg-fill-19 0.5s ease 0.9s both;
-          animation: animate-svg-fill-19 0.5s ease 0.9s both;
-}
-
-@-webkit-keyframes animate-svg-fill-20 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-20 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-20 {
-  -webkit-animation: animate-svg-fill-20 0.5s ease 0.9500000000000001s both;
-          animation: animate-svg-fill-20 0.5s ease 0.9500000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-fill-21 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-21 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-21 {
-  -webkit-animation: animate-svg-fill-21 0.5s ease 1s both;
-          animation: animate-svg-fill-21 0.5s ease 1s both;
-}
-
-@-webkit-keyframes animate-svg-fill-22 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-22 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-22 {
-  -webkit-animation: animate-svg-fill-22 0.5s ease 1.05s both;
-          animation: animate-svg-fill-22 0.5s ease 1.05s both;
-}
-
-@-webkit-keyframes animate-svg-fill-23 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-23 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-23 {
-  -webkit-animation: animate-svg-fill-23 0.5s ease 1.1s both;
-          animation: animate-svg-fill-23 0.5s ease 1.1s both;
-}
-
-@-webkit-keyframes animate-svg-fill-24 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-24 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-24 {
-  -webkit-animation: animate-svg-fill-24 0.5s ease 1.1500000000000001s both;
-          animation: animate-svg-fill-24 0.5s ease 1.1500000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-fill-25 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-25 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-25 {
-  -webkit-animation: animate-svg-fill-25 0.5s ease 1.2000000000000002s both;
-          animation: animate-svg-fill-25 0.5s ease 1.2000000000000002s both;
-}
-
-@-webkit-keyframes animate-svg-fill-26 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-26 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-26 {
-  -webkit-animation: animate-svg-fill-26 0.5s ease 1.25s both;
-          animation: animate-svg-fill-26 0.5s ease 1.25s both;
-}
-
-@-webkit-keyframes animate-svg-fill-27 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-27 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-27 {
-  -webkit-animation: animate-svg-fill-27 0.5s ease 1.3s both;
-          animation: animate-svg-fill-27 0.5s ease 1.3s both;
-}
-
-@-webkit-keyframes animate-svg-fill-28 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-28 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-28 {
-  -webkit-animation: animate-svg-fill-28 0.5s ease 1.35s both;
-          animation: animate-svg-fill-28 0.5s ease 1.35s both;
-}
-
-@-webkit-keyframes animate-svg-fill-29 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-29 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-29 {
-  -webkit-animation: animate-svg-fill-29 0.5s ease 1.4000000000000001s both;
-          animation: animate-svg-fill-29 0.5s ease 1.4000000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-fill-30 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-30 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-30 {
-  -webkit-animation: animate-svg-fill-30 0.5s ease 1.4500000000000002s both;
-          animation: animate-svg-fill-30 0.5s ease 1.4500000000000002s both;
-}
-
-@-webkit-keyframes animate-svg-fill-31 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-31 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-31 {
-  -webkit-animation: animate-svg-fill-31 0.5s ease 1.5s both;
-          animation: animate-svg-fill-31 0.5s ease 1.5s both;
-}
-
-@-webkit-keyframes animate-svg-fill-32 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-32 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-32 {
-  -webkit-animation: animate-svg-fill-32 0.5s ease 1.55s both;
-          animation: animate-svg-fill-32 0.5s ease 1.55s both;
-}
-
-@-webkit-keyframes animate-svg-fill-33 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-33 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-33 {
-  -webkit-animation: animate-svg-fill-33 0.5s ease 1.6s both;
-          animation: animate-svg-fill-33 0.5s ease 1.6s both;
-}
-
-@-webkit-keyframes animate-svg-fill-34 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-34 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-34 {
-  -webkit-animation: animate-svg-fill-34 0.5s ease 1.6500000000000001s both;
-          animation: animate-svg-fill-34 0.5s ease 1.6500000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-fill-35 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-35 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-35 {
-  -webkit-animation: animate-svg-fill-35 0.5s ease 1.7000000000000002s both;
-          animation: animate-svg-fill-35 0.5s ease 1.7000000000000002s both;
-}
-
-@-webkit-keyframes animate-svg-fill-36 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-36 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-36 {
-  -webkit-animation: animate-svg-fill-36 0.5s ease 1.75s both;
-          animation: animate-svg-fill-36 0.5s ease 1.75s both;
-}
-
-@-webkit-keyframes animate-svg-fill-37 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-@keyframes animate-svg-fill-37 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(176, 68, 48);
-  }
-}
-
-.managment__anim-stol-37 {
-  -webkit-animation: animate-svg-fill-37 0.5s ease 1.8s both;
-          animation: animate-svg-fill-37 0.5s ease 1.8s both;
+.menegment__svg--stol{
+  opacity: 0;
+}
+.menegment__svg--stol.active{
+  opacity: 100;
+
+  @-webkit-keyframes animate-svg-fill-1 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-1 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-1 {
+    -webkit-animation: animate-svg-fill-1 0.5s ease 0s both;
+            animation: animate-svg-fill-1 0.5s ease 0s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-2 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-2 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-2 {
+    -webkit-animation: animate-svg-fill-2 0.5s ease 0.05s both;
+            animation: animate-svg-fill-2 0.5s ease 0.05s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-3 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-3 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-3 {
+    -webkit-animation: animate-svg-fill-3 0.5s ease 0.1s both;
+            animation: animate-svg-fill-3 0.5s ease 0.1s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-4 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-4 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-4 {
+    -webkit-animation: animate-svg-fill-4 0.5s ease 0.15000000000000002s both;
+            animation: animate-svg-fill-4 0.5s ease 0.15000000000000002s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-5 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-5 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-5 {
+    -webkit-animation: animate-svg-fill-5 0.5s ease 0.2s both;
+            animation: animate-svg-fill-5 0.5s ease 0.2s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-6 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-6 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-6 {
+    -webkit-animation: animate-svg-fill-6 0.5s ease 0.25s both;
+            animation: animate-svg-fill-6 0.5s ease 0.25s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-7 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-7 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-7 {
+    -webkit-animation: animate-svg-fill-7 0.5s ease 0.30000000000000004s both;
+            animation: animate-svg-fill-7 0.5s ease 0.30000000000000004s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-8 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-8 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-8 {
+    -webkit-animation: animate-svg-fill-8 0.5s ease 0.35000000000000003s both;
+            animation: animate-svg-fill-8 0.5s ease 0.35000000000000003s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-9 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-9 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-9 {
+    -webkit-animation: animate-svg-fill-9 0.5s ease 0.4s both;
+            animation: animate-svg-fill-9 0.5s ease 0.4s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-10 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-10 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-10 {
+    -webkit-animation: animate-svg-fill-10 0.5s ease 0.45s both;
+            animation: animate-svg-fill-10 0.5s ease 0.45s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-11 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-11 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-11 {
+    -webkit-animation: animate-svg-fill-11 0.5s ease 0.5s both;
+            animation: animate-svg-fill-11 0.5s ease 0.5s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-12 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-12 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-12 {
+    -webkit-animation: animate-svg-fill-12 0.5s ease 0.55s both;
+            animation: animate-svg-fill-12 0.5s ease 0.55s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-13 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-13 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-13 {
+    -webkit-animation: animate-svg-fill-13 0.5s ease 0.6000000000000001s both;
+            animation: animate-svg-fill-13 0.5s ease 0.6000000000000001s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-14 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-14 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-14 {
+    -webkit-animation: animate-svg-fill-14 0.5s ease 0.65s both;
+            animation: animate-svg-fill-14 0.5s ease 0.65s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-15 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-15 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-15 {
+    -webkit-animation: animate-svg-fill-15 0.5s ease 0.7000000000000001s both;
+            animation: animate-svg-fill-15 0.5s ease 0.7000000000000001s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-16 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-16 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-16 {
+    -webkit-animation: animate-svg-fill-16 0.5s ease 0.75s both;
+            animation: animate-svg-fill-16 0.5s ease 0.75s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-17 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-17 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-17 {
+    -webkit-animation: animate-svg-fill-17 0.5s ease 0.8s both;
+            animation: animate-svg-fill-17 0.5s ease 0.8s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-18 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-18 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-18 {
+    -webkit-animation: animate-svg-fill-18 0.5s ease 0.8500000000000001s both;
+            animation: animate-svg-fill-18 0.5s ease 0.8500000000000001s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-19 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-19 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-19 {
+    -webkit-animation: animate-svg-fill-19 0.5s ease 0.9s both;
+            animation: animate-svg-fill-19 0.5s ease 0.9s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-20 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-20 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-20 {
+    -webkit-animation: animate-svg-fill-20 0.5s ease 0.9500000000000001s both;
+            animation: animate-svg-fill-20 0.5s ease 0.9500000000000001s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-21 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-21 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-21 {
+    -webkit-animation: animate-svg-fill-21 0.5s ease 1s both;
+            animation: animate-svg-fill-21 0.5s ease 1s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-22 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-22 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-22 {
+    -webkit-animation: animate-svg-fill-22 0.5s ease 1.05s both;
+            animation: animate-svg-fill-22 0.5s ease 1.05s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-23 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-23 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-23 {
+    -webkit-animation: animate-svg-fill-23 0.5s ease 1.1s both;
+            animation: animate-svg-fill-23 0.5s ease 1.1s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-24 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-24 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-24 {
+    -webkit-animation: animate-svg-fill-24 0.5s ease 1.1500000000000001s both;
+            animation: animate-svg-fill-24 0.5s ease 1.1500000000000001s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-25 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-25 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-25 {
+    -webkit-animation: animate-svg-fill-25 0.5s ease 1.2000000000000002s both;
+            animation: animate-svg-fill-25 0.5s ease 1.2000000000000002s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-26 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-26 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-26 {
+    -webkit-animation: animate-svg-fill-26 0.5s ease 1.25s both;
+            animation: animate-svg-fill-26 0.5s ease 1.25s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-27 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-27 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-27 {
+    -webkit-animation: animate-svg-fill-27 0.5s ease 1.3s both;
+            animation: animate-svg-fill-27 0.5s ease 1.3s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-28 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-28 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-28 {
+    -webkit-animation: animate-svg-fill-28 0.5s ease 1.35s both;
+            animation: animate-svg-fill-28 0.5s ease 1.35s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-29 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-29 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-29 {
+    -webkit-animation: animate-svg-fill-29 0.5s ease 1.4000000000000001s both;
+            animation: animate-svg-fill-29 0.5s ease 1.4000000000000001s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-30 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-30 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-30 {
+    -webkit-animation: animate-svg-fill-30 0.5s ease 1.4500000000000002s both;
+            animation: animate-svg-fill-30 0.5s ease 1.4500000000000002s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-31 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-31 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-31 {
+    -webkit-animation: animate-svg-fill-31 0.5s ease 1.5s both;
+            animation: animate-svg-fill-31 0.5s ease 1.5s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-32 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-32 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-32 {
+    -webkit-animation: animate-svg-fill-32 0.5s ease 1.55s both;
+            animation: animate-svg-fill-32 0.5s ease 1.55s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-33 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-33 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-33 {
+    -webkit-animation: animate-svg-fill-33 0.5s ease 1.6s both;
+            animation: animate-svg-fill-33 0.5s ease 1.6s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-34 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-34 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-34 {
+    -webkit-animation: animate-svg-fill-34 0.5s ease 1.6500000000000001s both;
+            animation: animate-svg-fill-34 0.5s ease 1.6500000000000001s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-35 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-35 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-35 {
+    -webkit-animation: animate-svg-fill-35 0.5s ease 1.7000000000000002s both;
+            animation: animate-svg-fill-35 0.5s ease 1.7000000000000002s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-36 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-36 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-36 {
+    -webkit-animation: animate-svg-fill-36 0.5s ease 1.75s both;
+            animation: animate-svg-fill-36 0.5s ease 1.75s both;
+  }
+  
+  @-webkit-keyframes animate-svg-fill-37 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  @keyframes animate-svg-fill-37 {
+    0% {
+      fill: transparent;
+    }
+  
+    100% {
+      fill: rgb(176, 68, 48);
+    }
+  }
+  
+  .managment__anim-stol-37 {
+    -webkit-animation: animate-svg-fill-37 0.5s ease 1.8s both;
+            animation: animate-svg-fill-37 0.5s ease 1.8s both;
+  }
+  
 }
 
 
@@ -8929,5 +9162,3 @@
     -webkit-animation: animate-svg-fill-285 0.7s cubic-bezier(0.785, 0.135, 0.15, 0.86) 2.6559999999999997s both;
             animation: animate-svg-fill-285 0.7s cubic-bezier(0.785, 0.135, 0.15, 0.86) 2.6559999999999997s both;
   }
-
-  
